@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>New Year Surprise</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Quicksand:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Early access message -->
+  <p class="early-msg hidden">You’re early! Come back on Jan 1 at midnight 🎆</p>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>A New Year Begins</h1>
+    <p>And I’m so grateful to have you in my life.</p>
+    <button id="startBtn">Start</button>
+  </section>
+
+  <!-- Emotional Messages -->
+  <section class="content hidden">
+    <p class="reveal">This year has been a journey…</p>
+    <p class="reveal">Moments of joy, lessons learned, laughter and tears.</p>
+    <p class="reveal highlight">I’m truly grateful for you every day.</p>
+    <p class="reveal playful">You survived my silly jokes 😏</p>
+    <p class="reveal playful">And still laugh at my antics 🥂</p>
+    <button class="interactive-btn reveal">Click me for a secret 💌</button>
+    <p class="secret hidden">You’re my favorite person in the whole world! 💖</p>
+  </section>
+
+  <!-- Countdown & Final Messages -->
+  <section class="final hidden">
+    <h2 class="countdown"></h2>
+    <p class="final-text hidden">HAPPY NEW YEAR AGAIN!!!<br>I LOVE YOU YOU SO MUCHHHHH!!<br>❤️😘🎉🥰</p>
+    <button id="endBtn" class="hidden">Click for another greeting 🎉</button>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
